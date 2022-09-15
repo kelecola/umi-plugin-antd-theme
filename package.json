@@ -3,18 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "authors": {
-    "name": "chenshuai2144",
-    "email": "qixian.cs@outlook.com"
+    "name": "kele"
   },
-  "repository": "https://github.com/chenshuai2144/umi-plugin-ant-theme.git",
+  "repository": "https://github.com/kelecola/umi-plugin-antd-theme.git",
   "peerDependencies": {
     "umi": "2.x || ^2.9.0-0 || 3.x"
   },
   "main": "lib/index.js",
   "scripts": {
     "start": "CURRENT_PROJECT=example umi ui",
-    "build": "father-build",
-    "prepublishOnly": "npm run build && np --no-cleanup --yolo --no-publish"
+    "build": "father-build"
   },
   "devDependencies": {
     "@types/node": "^12.12.14",
